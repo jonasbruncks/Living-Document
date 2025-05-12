@@ -1,1 +1,21 @@
+title: "Living Document - [Your Project Title]"
+author:
+  
+"Moritz Eckmann"
+"Permallim Spahija"
+"Jonas Bruncks"
+date: "r format(Sys.Date(), '%B %d, %Y')"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+  pdf:
+    documentclass: article
+    papersize: a4
+    fontsize: 12pt
+bibliography: references.bib
+csl: apa-7.csl
+---
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE
