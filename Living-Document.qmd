@@ -19,3 +19,35 @@ csl: apa-7.csl
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE
+
+
+_quarto/
+.quarto/
+*.html
+*.pdf
+
+
+### Code of Conduct
+
+#### Umgang mit Feedback, unterschiedlichen Perspektiven und Meinungsverschiedenheiten
+
+#### Faire Aufteilung der Arbeitslast
+
+#### Verhalten in Bezug auf vereinbarte und verpflichtende Termine
+
+#### Einhaltung der wissenschaftlichen Integrität (siehe vorangehende Folien)
+
+#### Verpflichtung zum Schutz von Daten und zur Wahrung ihrer Vertraulichkeit
+
+#### Nutzung und Kennzeichnung von AI Tools (z.B. ChatGPT)
+
+
+# 1. Einletung
+
+# 2. Literaturübersicht
+
+# 3. Methode
+
+# 4. Ergebnisse
+
+# 5. Diskussion
