@@ -1,9 +1,7 @@
-title: "Living Document - [Your Project Title]"
-author:
+title: "Living Document"
+author: Moritz Eckmann, Permallim Spahija, Jonas Bruncks
   
-"Moritz Eckmann"
-"Permallim Spahija"
-"Jonas Bruncks"
+
 date: "r format(Sys.Date(), '%B %d, %Y')"
 format:
   html:
