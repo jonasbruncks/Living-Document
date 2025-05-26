@@ -71,4 +71,11 @@ Aufnahme und Transkription: Die Interviews wurden persönlich geführt und aufge
 
 Qualitative Ergebnisse:
 
+Wir als Gruppe B2 der SMNF haben zwei Personen getrennt voneinander zum Thema KI zur Erkennung von Misinformationen auf sozialen Medien interviewt. Beide Interviews wurden jeweils transkribiert und thematisch analysiert. Dabei haben wir vier Themen herausfiltern und diese durch Textstellen und Codes unterstreichen können.
+
+Beide Personen gaben an, mit mindestens einer KI gearbeitet zu haben und diese vor allem im Kontext der Uni benutzen. Also bestand schon eine Grundkenntnis. Interessant war, dass beide Personen das Thema Misinformationen als erstes mit Wahlkämpfen in Verbindung gebracht haben. Die Rede war von unpräzisen und nicht wahren Informationen. Als Beispiel: B2_2: Z. 34-38). Daraus lässt sich schließen, dass eine Unterstützung zur Erkennung von Misinformationen vor allem, im politischen Kontext durchaus interessant sein könnte. Des weiteren hat sich schnell herausgestellt, dass beide Personen häufiger mit falschen Angaben durch künstliche Intelligenz Erfahrungen gemacht haben. Das Thema Fehler durch KI wird als normal und alltäglich angesehen. Zum Beispiel zu sehen bei B2_2: Z. 48-54).
+
+Abschließend lässt sich sagen, dass die geführten Interviews interessanterweise durch ähnliche Erfahrungen der teilnehmenden Personen geprägt sind und somit ähnliche Ergebnisse zustande kamen.
+
+
 # 5. Diskussion
