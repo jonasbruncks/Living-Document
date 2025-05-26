@@ -51,6 +51,24 @@ Das NEBULA Projekt entwickelt zwar gute technische Lösungen zum Erkennen von Fa
 
 # 3. Methode
 
+Qualitative Methode:
+
+Für die Forschungsfrage wurde ein qualitativer Forschungsansatz gewählt, da dieser am besten geeignet ist, um subjektiven Erfahrungen, Einstellungen und Bedürfnisse der Nutzer im Zusammenhang mit Künstlicher Intelligenz und Misinformation zu erfassen. Die Forschungsfrage zielt nicht darauf ab, statistisch repräsentative Aussagen zu treffen oder Korrelationen von Daten zu messen, sondern möchte ein tiefgehendes Verständnis dafür entwickeln, wie Individuen KI-Tools im Kontext von Desinformation wahrnehmen und welche Erwartungen sie an solche Systeme haben. 
+Qualitative Methoden ermöglichen es unerwartete Perspektiven zu entdecken, vor allem im Kontext eines dynamischen Dialoges mit halbstrukturierten Leitfaden.
+
+Datenerhebung:
+
+Stichprobe: Es wurden zwei Personen gewählt.
+
+Rekrutierung: Die Teilnehmer wurden über Uni-Netzwerke rekrutiert.
+
+Interviewansatz: Es wurden halbstrukturierte Leitfadeninterviews durchgeführt, die eine dynamischen Dialog erlauben, aber Zentrale Themen (KI-Nutzung, Misinformation) abdecken. 
+
+Aufnahme und Transkription: Die Interviews wurden persönlich geführt und aufgezeichnet, anschließend wortwörtlich transkribiert und anonymisiert, um eine detaillierte Analyse zu ermöglichen.
+
+
 # 4. Ergebnisse
+
+Qualitative Ergebnisse:
 
 # 5. Diskussion
