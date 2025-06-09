@@ -1,5 +1,5 @@
 title: "Living Document"
-author: Moritz Eckmann, Permallim Spahija, Jonas Bruncks
+author: Rodrigo Adriano Sarau, Permallim Spahija, Jonas Bruncks
   
 
 date: "r format(Sys.Date(), '%B %d, %Y')"
