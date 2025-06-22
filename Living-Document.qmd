@@ -1,8 +1,12 @@
+---
 title: "Living Document"
-author: Rodrigo Adriano Sarau, Permallim Spahija, Jonas Bruncks
+author: 
+- Rodrigo Adriano Sarau
+- Permallim Spahija
+- Jonas Bruncks
   
 
-date: "r format(Sys.Date(), '%B %d, %Y')"
+date: "`r format(Sys.Date(), '%B %d, %Y')`"
 format:
   html:
     toc: true
@@ -11,14 +15,17 @@ format:
     documentclass: article
     papersize: a4
     fontsize: 12pt
-bibliography: references.bib
+bibliography: Refernces.bib
 csl: apa-7.csl
+link-citations: true
+lang: en
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE
+knitr::opts_chunk$set(echo = FALSE)
 
-
+---
+  
 _quarto/
 .quarto/
 *.html
@@ -40,7 +47,7 @@ _quarto/
 #### Nutzung und Kennzeichnung von AI Tools (z.B. ChatGPT)
 
 
-# 1. Einletung
+# 1. Einleitung
 
 # 2. Literaturübersicht
 
@@ -98,6 +105,39 @@ Außerdem sprachen beid evon der Wichtigkeit, einen unabhängigen Betreiber für
 
 
 Abschließend lässt sich sagen, dass die geführten Interviews interessanterweise sowohl durch ähnliche als auch verschiedene Erfahrungen und Ansichten/Ideen der teilnehmenden Personen geprägt wurden.
+
+Quantitative Ergebnisse:
+
+#| echo: false
+#| results: asis
+library(tidyverse)
+library(psych)
+
+# Datenaufbereitung
+data <- data(open(("data_combined.csv")))
+
+# ATI-Skala berechnen (Items 1-9, einige invertieren)
+ati_items <- data %>% select(starts_with("ati_"))
+ati_items <- ati_items %>% mutate(across(c(ati_3, ati_6, ati_7), ~6 - .))
+data$ati_score <- rowMeans(ati_items, na.rm = TRUE)
+
+# Deskriptive Statistiken
+desc_stats <- data %>% 
+  select(age, ati_score, b_dlr_wat_a, ki_dlr_wat_a) %>%
+  describe() %>%
+  select(mean, sd, min, max, n, median)
+
+# Cronbach's Alpha für ATI
+alpha_ati <- psych::alpha(ati_items)$total$raw_alpha
+
+# Tabelle erstellen
+desc_table <- desc_stats %>%
+  kable(digits = 2,
+        caption = "Deskriptive Statistiken der Hauptvariablen",
+        col.names = c("M", "SD", "Min", "Max", "n", "Median")) %>%
+  kable_styling()
+
+desc_table
 
 ![Diagramm](DiagrammquantitativeStudie.drawio){width=300}
 
