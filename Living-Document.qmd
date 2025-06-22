@@ -1,11 +1,9 @@
 ---
 title: "Living Document"
-author: 
-- Rodrigo Adriano Sarau
-- Permallim Spahija
-- Jonas Bruncks
-  
-
+author:
+  - Rodrigo Adriano Sarau
+  - Permallim Spahija
+  - Jonas Bruncks
 date: "`r format(Sys.Date(), '%B %d, %Y')`"
 format:
   html:
@@ -15,21 +13,16 @@ format:
     documentclass: article
     papersize: a4
     fontsize: 12pt
-bibliography: Refernces.bib
+bibliography: references.bib
+execute: 
+  echo: false
 csl: apa-7.csl
 link-citations: true
 lang: en
 ---
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
-
----
-  
-_quarto/
-.quarto/
-*.html
-*.pdf
+```
 
 
 ### Code of Conduct
@@ -81,10 +74,10 @@ Aufnahme und Transkription: Die Interviews wurden persönlich geführt und aufge
 
 Quantitative Methode:
 
-Die Datenerhebung für die Studie erfolgte, indem wir mit einem Einführungstext inklusive der wichtigsten Informationen rund um die Studie begonnen haben. In diesem gaben wir das Thema bzw. den Rahmen der Studie bekannt und haben die Teilnahmebedingungen aufgelistet. Zu den Teilnahmebedingungen gehört die Volljährigkeit, die Verfügung über ein Tablet oder PC sowie gute deutsch Kenntnisse. Danach überlegten wir uns, wie wir an möglichst viele Teilnehmer aus verschiedenen Altersklassen herankommen. Wir brauchten eine Plattform mit vielen Nutzer*innen und einem durchmischten Alter und kamen auf Reddit. Dort posteten wir unseren Info Text und den Link zur Studie. Abgesehen davon haben wir den Rekrutierungstext samt Link in das Asta-Forum gepostet.
+Die Datenerhebung für die Studie erfolgte, indem wir mit einem Einführungstext inklusive der wichtigsten Informationen rund um die Studie begonnen haben. In diesem gaben wir das Thema bzw. den Rahmen der Studie bekannt und haben die Teilnahmebedingungen aufgelistet. Zu den Teilnahmebedingungen gehört die Volljährigkeit, die Verfügung über ein Tablet oder PC sowie gute deutsch Kenntnisse. Danach überlegten wir uns, wie wir an möglichst viele Teilnehmer aus verschiedenen Altersklassen herankommen. Wir brauchten eine Plattform mit vielen Nutzer\*innen und einem durchmischten Alter und kamen auf Reddit. Dort posteten wir unseren Info Text und den Link zur Studie. Abgesehen davon haben wir den Rekrutierungstext samt Link in das Asta-Forum gepostet.
 Die Erhebung besteht aus fünf nacheinander ablaufenden Schritten. Beginnend mit dem Pre-Test-Fragebogen folgt die Klassifizierung von Zehn Posts ohne KI, ein Post-Baseline-Fragebogen, die Klassifizierung von Zehn Posts mit KI und einem Post-Test-Fragebogen.
-Die Studie kann nur mit der Einwilligung der Datenschutzerklärung starten und befasst sich zunächst mit Probandeninformationen und einer Pre-test-Survey zu dem aktuellen Stand zum Thema KI-Nutzung sowie der Affinität für technologische Interaktion (Diagramm, Textfeld 3-6). Die passende Skala ist im single choice stil gehalten und stellt die Proban*innen vor die Aufgabe den Grad der Zustimmung zum Umgang mit technischen Systemen anzugeben (Quelle: franke2017ati). Anschließend wird ein Tutorial durchgeführt, um die Proband*innen auf die Studie vorzubereiten (Diagramm, Textfeld 7-8,). Die Durchführung der Studie beinhaltet die Einschätzung, ob vorgegebene Posts auf social Media der Wahrheit entsprechen, oder es sich um eine Misinformation handelt. Die Proband*innen sollen Zehn Posts ohne KI Unterstützung und Zehn Posts mit KI Unterstützung bewerten und dabei auf einen Button klicken, wenn ein Lämpchen von blau zu rot wechselt. (Diagramm, Textfeld 9-13). Danach sollen die Teilnehmer*innen in einer Post-Test-Survey die Arbeitsbelastung der Studie angeben, indem in einer passenden Ansicht zwischen unterfordernd, optimal und überfordernd gewählt werden kann (Quelle: brandenburger2023wat) und der Eindruck des Systems mit dem die Studie arbeitet soll bewertet werden. (Diagramm, Textfeld 14-19). Bei der Bewertung geht es unter anderem um die Nutzbarkeit und um die Effektivität des Systems. Die Skala dazu fordert die Proband*innen dazu auf Fragen zur Usability zwischen Eins und Fünf zu beantworten, während die Eins für zutreffend und die Fünf für nicht zutreffend steht (Quelle: brooke1995sus). Des weiteren behandelt eine Skala das Thema „subjektives Informationsbewusstsein“ und es werden single choice Antworten in Sechs Stufen von „voll unzutreffend“ bis „voll zutreffend“ zu mehreren Fragen erwartet (Quelle: schrills2021sipas). Zuletzt kommt ein Debriefing und den Teilnehmer*innen wird veranschaulicht, welche Posts Falschinformationen waren und welche nicht. Es wird zudem bei jedem Post gezeigt für welche Antwort sich die Teilnehmer*innen entschieden haben und, ob mit oder ohne KI Unterstützung gearbeitet wurde (Diagramm, Textfeld 20).
-Wir planen zur Analyse einen t-Test und ein Korrelationstest zu vollziehen. Eine Möglichkeit für einen t-Test wäre, die Proband*innen in zwei Altersklassen zu teilen und zu untersuchen, welche Altersklasse eher der KI vertraut und wie die beiden Klassen auch ohne KI antworten. Ein Korrelationstest besteht aus einer unabhängigen Variable (UV) und einer abhängigen Variable (AV). Eine Möglichkeit wäre, so den Zusammenhang zwischen dem Alter der Proband*innen und den gegebenen Antworten zu den social Media Posts herzustellen. Außerdem könnte ebenfalls der Zusammenhang zwischen Alter und Verlass auf KI Unterstützung analysiert werden. 
+Die Studie kann nur mit der Einwilligung der Datenschutzerklärung starten und befasst sich zunächst mit Probandeninformationen und einer Pre-test-Survey zu dem aktuellen Stand zum Thema KI-Nutzung sowie der Affinität für technologische Interaktion (Diagramm, Textfeld 3-6). Die passende Skala ist im single choice stil gehalten und stellt die Proban\*innen vor die Aufgabe den Grad der Zustimmung zum Umgang mit technischen Systemen anzugeben (Quelle: @franke2017ati). Anschließend wird ein Tutorial durchgeführt, um die Proband\*innen auf die Studie vorzubereiten (Diagramm, Textfeld 7-8,). Die Durchführung der Studie beinhaltet die Einschätzung, ob vorgegebene Posts auf social Media der Wahrheit entsprechen, oder es sich um eine Misinformation handelt. Die Proband\*innen sollen Zehn Posts ohne KI Unterstützung und Zehn Posts mit KI Unterstützung bewerten und dabei auf einen Button klicken, wenn ein Lämpchen von blau zu rot wechselt. (Diagramm, Textfeld 9-13). Danach sollen die Teilnehmer\*innen in einer Post-Test-Survey die Arbeitsbelastung der Studie angeben, indem in einer passenden Ansicht zwischen unterfordernd, optimal und überfordernd gewählt werden kann (Quelle: @brandenburger2023wat) und der Eindruck des Systems mit dem die Studie arbeitet soll bewertet werden. (Diagramm, Textfeld 14-19). Bei der Bewertung geht es unter anderem um die Nutzbarkeit und um die Effektivität des Systems. Die Skala dazu fordert die Proband\*innen dazu auf Fragen zur Usability zwischen Eins und Fünf zu beantworten, während die Eins für zutreffend und die Fünf für nicht zutreffend steht (Quelle: @brooke1995sus). Des weiteren behandelt eine Skala das Thema „subjektives Informationsbewusstsein“ und es werden single choice Antworten in Sechs Stufen von „voll unzutreffend“ bis „voll zutreffend“ zu mehreren Fragen erwartet (Quelle: @schrills2021sipas). Zuletzt kommt ein Debriefing und den Teilnehmer\*innen wird veranschaulicht, welche Posts Falschinformationen waren und welche nicht. Es wird zudem bei jedem Post gezeigt für welche Antwort sich die Teilnehmer\*innen entschieden haben und, ob mit oder ohne KI Unterstützung gearbeitet wurde (Diagramm, Textfeld 20).
+Wir planen zur Analyse einen t-Test und ein Korrelationstest zu vollziehen. Eine Möglichkeit für einen t-Test wäre, die Proband\*innen in zwei Altersklassen zu teilen und zu untersuchen, welche Altersklasse eher der KI vertraut und wie die beiden Klassen auch ohne KI antworten. Ein Korrelationstest besteht aus einer unabhängigen Variable (UV) und einer abhängigen Variable (AV). Eine Möglichkeit wäre, so den Zusammenhang zwischen dem Alter der Proband\*innen und den gegebenen Antworten zu den social Media Posts herzustellen. Außerdem könnte ebenfalls der Zusammenhang zwischen Alter und Verlass auf KI Unterstützung analysiert werden. 
 
 
 # 4. Ergebnisse
@@ -108,37 +101,110 @@ Abschließend lässt sich sagen, dass die geführten Interviews interessanterwei
 
 Quantitative Ergebnisse:
 
-#| echo: false
-#| results: asis
+```{r analysis, echo=FALSE, message=FALSE, warning=FALSE}
 library(tidyverse)
 library(psych)
+library(knitr)
+library(ggplot2)
 
-# Datenaufbereitung
-data <- data(open(("data_combined.csv")))
+# Daten laden
+data <- read_csv("data/open/data_combined.csv", show_col_types = FALSE)
 
-# ATI-Skala berechnen (Items 1-9, einige invertieren)
-ati_items <- data %>% select(starts_with("ati_"))
-ati_items <- ati_items %>% mutate(across(c(ati_3, ati_6, ati_7), ~6 - .))
+
+# ATI: Items invertieren
+data <- data %>%
+  mutate(
+    ati_3 = 6 - ati_3,
+    ati_6 = 6 - ati_6,
+    ati_8 = 6 - ati_8
+  )
+
+ati_items <- data %>% select(ati_1:ati_9)
 data$ati_score <- rowMeans(ati_items, na.rm = TRUE)
 
-# Deskriptive Statistiken
-desc_stats <- data %>% 
-  select(age, ati_score, b_dlr_wat_a, ki_dlr_wat_a) %>%
-  describe() %>%
-  select(mean, sd, min, max, n, median)
+# DLR-WAT mit KI: Skalen-Score
+dlrwat_items <- data %>% select(ki_dlr_wat_i, ki_dlr_wat_w, ki_dlr_wat_e,
+                                ki_dlr_wat_m, ki_dlr_wat_z, ki_dlr_wat_a,
+                                ki_dlr_wat_f, ki_dlr_wat_b)
 
-# Cronbach's Alpha für ATI
-alpha_ati <- psych::alpha(ati_items)$total$raw_alpha
+data$dlrwat_ki_score <- rowMeans(dlrwat_items, na.rm = TRUE)
 
-# Tabelle erstellen
-desc_table <- desc_stats %>%
-  kable(digits = 2,
-        caption = "Deskriptive Statistiken der Hauptvariablen",
-        col.names = c("M", "SD", "Min", "Max", "n", "Median")) %>%
-  kable_styling()
+# Cronbachs Alpha
+alpha_ati <- alpha(ati_items)$total$raw_alpha
+alpha_dlrwat <- alpha(dlrwat_items, check.keys = TRUE)$total$raw_alpha
 
-desc_table
 
-![Diagramm](DiagrammquantitativeStudie.drawio){width=300}
+# Metrische Variablen beschreiben
+metric_vars <- data %>%
+  select(ati_score, dlrwat_ki_score, decision_correct_rate_E)
+
+desc_stats <- describe(metric_vars)[, c("n", "mean", "median", "sd", "min", "max")] %>%
+  round(2) %>%
+  as.data.frame() %>%
+  rownames_to_column("Variable")
+
+kable(desc_stats, caption = "Deskriptive Statistik metrischer Variablen")
+
+
+# Geschlecht umcodieren
+data <- data %>%
+  mutate(gender_clean = case_when(
+    gender == "1" ~ "männlich",
+    gender == "2" ~ "weiblich",
+    TRUE ~ "divers/sonstige"
+  ))
+
+gender_table <- table(data$gender_clean)
+gender_percent <- prop.table(gender_table) * 100
+
+gender_df <- data.frame(
+  Geschlecht = names(gender_table),
+  Anzahl = as.numeric(gender_table),
+  Prozent = round(as.numeric(gender_percent), 2)
+) %>% filter(Anzahl > 0)
+
+kable(gender_df, caption = "Verteilung Geschlecht")
+
+
+# t-Test: Entscheidungsgenauigkeit nach Geschlecht (nur m/w)
+test_data <- data %>%
+  filter(gender_clean %in% c("männlich", "weiblich")) %>%
+  mutate(gender_clean = factor(gender_clean))
+
+# Test
+t_result <- t.test(decision_correct_rate_E ~ gender_clean, data = test_data)
+
+# Plot
+p <- ggplot(test_data, aes(x = gender_clean, y = decision_correct_rate_E)) +
+  geom_boxplot(fill = "lightblue", outlier.shape = NA) +
+  geom_jitter(width = 0.2, alpha = 0.5) +
+  stat_summary(fun = mean, geom = "point", size = 4, color = "red") +
+  labs(
+    x = "Geschlecht",
+    y = "Entscheidungsgenauigkeit (E-Szenario)",
+    title = "Mittelwertvergleich der Entscheidungsgenauigkeit"
+  ) +
+  theme_minimal()
+
+print(p)
+
+
+# Korrelation: ATI-Score und DLR-WAT (KI)
+correlation_result <- cor.test(data$ati_score, data$dlrwat_ki_score, use = "complete.obs")
+
+p2 <- ggplot(data, aes(x = ati_score, y = dlrwat_ki_score)) +
+  geom_point(alpha = 0.6, color = "darkblue") +
+  geom_smooth(method = "lm", se = TRUE, color = "orange") +
+  labs(
+    x = "Akzeptanz von KI (ATI-Score)",
+    y = "DLR-WAT Bewertung mit KI",
+    title = "Zusammenhang zwischen ATI und DLR-WAT (mit KI)"
+  ) +
+  theme_minimal()
+
+print(p2)
+```
+
+![Diagramm](DiagrammquantitativeStudie.drawio.png){width=300}
 
 # 5. Diskussion
