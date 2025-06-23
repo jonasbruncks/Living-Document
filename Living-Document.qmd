@@ -159,7 +159,9 @@ age_stats <- data_cleaned %>%
   summarise(
     mean_age = mean(age, na.rm = TRUE),
     sd_age = sd(age, na.rm = TRUE),
-    median_age = median(age, na.rm = TRUE)
+    median_age = median(age, na.rm = TRUE),
+    max_age = max(age, na.rm = TRUE),
+    min_age = min(age, na.rm = TRUE)
   )
 
 age_stats_table <- age_stats %>%
@@ -170,6 +172,13 @@ age_stats_table <- age_stats %>%
 
 kable(age_stats_table, caption = "Deskriptive Statistik des Alters")
 
+
+row_indices <- as.numeric(rownames(data_cleaned))
+missing_vars <- setdiff(names(data), names(data_cleaned))
+missing_data <- data[row_indices, missing_vars, drop = FALSE]
+data_cleaned <- bind_cols(data_cleaned, missing_data)
+
+data <- data_cleaned
 
 # ATI Variablen invertieren
 data <- data %>%
