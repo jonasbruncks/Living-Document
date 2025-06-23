@@ -106,12 +106,72 @@ library(tidyverse)
 library(psych)
 library(knitr)
 library(ggplot2)
+library(dplyr)
 
 # Daten laden
 data <- read_csv("data/open/data_combined.csv", show_col_types = FALSE)
 
 
-# ATI: Items invertieren
+# 1. Filter: Unvollständige Fragebögen ausschließen
+# Behalte nur Datensätze mit mindestens 95% beantworteten Items
+numeric_data <- data %>% select(where(is.numeric))
+valid_counts <- colSums(!is.na(numeric_data))
+
+data_complete <- numeric_data %>%
+  mutate(missing_rate = rowSums(is.na(select(., where(is.numeric)))) / max(valid_counts)) %>%
+  filter(missing_rate <= 0.05)
+# Begründung: Fragebögen mit >5% fehlender Antworten könnten systematisch verzerrt sein und werden daher ausgeschlossen
+
+# 2. Filter: Alterseinschränkung auf Zielgruppe
+data_filtered_age <- data_complete %>%
+  filter(age >= 18 & age <= 44)
+# Begründung: Nur Personen innerhalb unserer Zielgruppe sind für die Analyse relevant
+
+# 3. Filter: Ausreißerentfernung für jede numerische Variable
+outlier_boundaries <- sapply(data_filtered_age, function(col) {
+  qnt <- quantile(col, probs = c(0.25, 0.75), na.rm = TRUE)
+  iqr <- qnt[2] - qnt[1]
+  lower <- qnt[1] - 1.5 * iqr
+  upper <- qnt[2] + 1.5 * iqr
+  !(col < lower | col > upper | is.na(col))
+})
+
+keep_rows <- rowMeans(outlier_boundaries, na.rm = TRUE)
+
+data_no_outliers <- data_filtered_age[keep_rows >= 0.8, ]
+# Begründung: Ausreißer (extreme Werte) können Mittelwerte und andere Analysen stark verzerren
+
+# Schritt 4: Reliabilität über Cronbach's Alpha
+data_for_psych <- data_no_outliers %>% select(starts_with("b_dlr_wat_"))
+data_for_psych <- data_for_psych %>% mutate (b_dlr_wat_b = 100 - b_dlr_wat_b)
+alpha_result <- psych::alpha(data_for_psych %>% drop_na())
+if (alpha_result$total$raw_alpha < 0.7) {
+  warning("Cronbach's Alpha < 0.7. Daten werden ausgeschlossen.")
+  data_cleaned <- data_no_outliers[0, ]  # leere Zeilen
+} else {
+  data_cleaned <- data_no_outliers
+}
+
+# Begründung: Cronbach's Alpha misst die interne Konsistenz. Werte < 0.7 deuten auf unreliables Antwortverhalten hin.
+
+# 5. Statistiken für das Alter nach dem Filtern
+age_stats <- data_cleaned %>%
+  summarise(
+    mean_age = mean(age, na.rm = TRUE),
+    sd_age = sd(age, na.rm = TRUE),
+    median_age = median(age, na.rm = TRUE)
+  )
+
+age_stats_table <- age_stats %>%
+  round(2) %>%
+  t() %>%
+  as.data.frame() %>%
+  rownames_to_column("Statistik")
+
+kable(age_stats_table, caption = "Deskriptive Statistik des Alters")
+
+
+# ATI Variablen invertieren
 data <- data %>%
   mutate(
     ati_3 = 6 - ati_3,
@@ -122,7 +182,7 @@ data <- data %>%
 ati_items <- data %>% select(ati_1:ati_9)
 data$ati_score <- rowMeans(ati_items, na.rm = TRUE)
 
-# DLR-WAT mit KI: Skalen-Score
+# DLR-WAT zuweisung
 dlrwat_items <- data %>% select(ki_dlr_wat_i, ki_dlr_wat_w, ki_dlr_wat_e,
                                 ki_dlr_wat_m, ki_dlr_wat_z, ki_dlr_wat_a,
                                 ki_dlr_wat_f, ki_dlr_wat_b)
