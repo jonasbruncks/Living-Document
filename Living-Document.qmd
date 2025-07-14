@@ -135,7 +135,7 @@ Diese Ergebnisse deuten darauf hin, dass andere Faktoren (z.B. Medienkompetenz o
 Abbildung 1
 Mittelwerte der Entscheidungsgenauigkeit nach Geschlecht mit 95%-Konfidenzintervallen.
 Abbildung 2
-Streudiagramm mit Regressionsgerade für den Zusammenhang zwischen Alter und Entscheidungsgenauigkeit.
+Streudiagramm mit Regressionsgerade für den Zusammenhang zwischen ATI-Score und DLR-WAT der Bewertungen mit KI unterstützung.
 Methodische Anmerkungen
 Für den t-Test wurde eine unverbundene Stichprobe angenommen
 Voraussetzungen für die Pearson-Korrelation wurden geprüft (Normalverteilung, Linearität)
