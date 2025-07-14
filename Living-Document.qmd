@@ -10,6 +10,9 @@ format:
     toc: true
     toc-depth: 3
   pdf:
+    toc: true
+    number-sections: true
+    pdf-engine: lualatex
     documentclass: article
     papersize: a4
     fontsize: 12pt
@@ -25,7 +28,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 
-### Code of Conduct
+# Code of Conduct
 
 #### Umgang mit Feedback, unterschiedlichen Perspektiven und Meinungsverschiedenheiten
 
@@ -40,9 +43,9 @@ knitr::opts_chunk$set(echo = FALSE)
 #### Nutzung und Kennzeichnung von AI Tools (z.B. ChatGPT)
 
 
-# 1. Einleitung
+# Einleitung
 
-# 2. Literaturübersicht
+# Literaturübersicht
 
 Die drei Studien NEBULA zur KI-Erkennung von Fake News, Forschung zu visueller Desinformation und die Übersichtsstudie zu Gesundheits-Fake News zeigen grundsätzlich alle das gleiche Problem. Falschinformationen verbreiten sich heutzutage viel schneller und weiter als korrekte Informationen. Das liegt daran, dass emotionale Inhalte, Social Media-Algorithmen und geschlossene Meinungsblasen die Verbreitung fördern und vor allem keine anderen Meinungen und Informationen zulassen.
 
@@ -55,7 +58,7 @@ Umfrage KI-Unterstützung bei der Erkennung von Falschinformationen
 Ich suche Teilnehmer für eine Online-Umfrage rund um die Erkennung von Falschinformationen und wie oder ob KI, Nutzer dabei unterstützen kann. In der Studie bewerten Sie verschiedene kurze Beiträge aus sozialen Medien. Dabei interessieren wir uns für Ihre Einschätzungen zu diesen Inhalten. Die Online- Umfrage, ist über den Link erreichbar. Sie dient der Forschung und findet an- onym statt. Mindestalter: 18 Jahre Dauer: ca. 60 Minuten Nötige Vorkenntnisse: Keine Hardwareanforderungen: Computer oder Tablet (nicht für Smartphones geeignet) Vielen dank für Ihre Teilnahme.
 https://dsslab.hciuse.sh/study/pilot?groupId=gr-a6
 
-# 3. Methode
+# Methode
 
 Qualitative Methode:
 
@@ -80,7 +83,7 @@ Die Studie kann nur mit der Einwilligung der Datenschutzerklärung starten und b
 Wir planen zur Analyse einen t-Test und ein Korrelationstest zu vollziehen. Eine Möglichkeit für einen t-Test wäre, die Proband\*innen in zwei Altersklassen zu teilen und zu untersuchen, welche Altersklasse eher der KI vertraut und wie die beiden Klassen auch ohne KI antworten. Ein Korrelationstest besteht aus einer unabhängigen Variable (UV) und einer abhängigen Variable (AV). Eine Möglichkeit wäre, so den Zusammenhang zwischen dem Alter der Proband\*innen und den gegebenen Antworten zu den social Media Posts herzustellen. Außerdem könnte ebenfalls der Zusammenhang zwischen Alter und Verlass auf KI Unterstützung analysiert werden. 
 
 
-# 4. Ergebnisse
+# Ergebnisse
 
 Qualitative Ergebnisse:
 
@@ -100,6 +103,48 @@ Außerdem sprachen beid evon der Wichtigkeit, einen unabhängigen Betreiber für
 Abschließend lässt sich sagen, dass die geführten Interviews interessanterweise sowohl durch ähnliche als auch verschiedene Erfahrungen und Ansichten/Ideen der teilnehmenden Personen geprägt wurden.
 
 Quantitative Ergebnisse:
+
+In unserer Studie haben wir Daten von 176 Teilnehmenden ausgewertet. Das Durchschnittsalter lag bei etwa 23 Jahren (M = 22.91, SD = 4.44), wobei die jüngste Person 18 und die älteste 69 Jahre alt war. Die Geschlechterverteilung war ziemlich ausgeglichen: 51% der Teilnehmenden waren weiblich, 48% männlich und etwa 1% divers. Diese Verteilung zeigt, dass wir eine relativ breite Gruppe von Personen erreicht haben, was für unsere Forschung wichtig ist.  
+Wir haben verschiedene Skalen verwendet, um die Einstellungen und Leistungen der Teilnehmenden zu messen:
+1. Affinität für Technologie (ATI-Score)
+Der Durchschnittswert lag bei 3.40 von 6 Punkten (SD = 1.06), was bedeutet, dass die Teilnehmenden insgesamt eine moderate Affinität für Technologie hatten. Einige waren sehr technikaffin (maximal 5.67 Punkte), andere weniger (minimal 1.11 Punkte).
+2. Arbeitsbelastung (DLR-WAT)
+Hier gab es größere Unterschiede zwischen den Teilnehmenden. Der Mittelwert betrug 105.90 (SD = 22.63), wobei die Werte zwischen 44.38 und 178.12 lagen. Das zeigt, dass einige die Aufgaben als sehr anstrengend empfanden, während andere kaum Belastung spürten.
+3. Entscheidungsgenauigkeit (ohne KI)
+Im Durchschnitt lagen die Teilnehmenden in 77% der Fälle richtig (SD = 0.16). Die Spanne reichte von 30% bis 100%, was auf unterschiedliche Fähigkeiten in der Erkennung von Falschinformationen hindeutet.
+
+
+Mittelwertvergleich zwischen Geschlechtern
+Um zu untersuchen, ob sich die Fähigkeit zur Erkennung von Falschinformationen zwischen den Geschlechtern unterscheidet, haben wir einen t-Test durchgeführt. Dabei haben wir die Entscheidungsgenauigkeit von männlichen und weiblichen Teilnehmenden verglichen.
+Ergebnisse:
+Männliche Teilnehmer: M = 0.76, SD = 0.15
+Weibliche Teilnehmer: M = 0.78, SD = 0.17
+t(85) = 1.23, p = 0.22
+Der Unterschied war nicht statistisch signifikant (p > 0.05). Das bedeutet, dass beide Gruppen ähnlich gut abschnitten, wenn es darum ging, Falschinformationen zu erkennen. Diese Ergebnisse sind in Abbildung 1 dargestellt.
+Zusammenhang zwischen Alter und Leistung
+Wir haben außerdem untersucht, ob das Alter der Teilnehmenden mit ihrer Genauigkeit zusammenhängt. Dafür haben wir eine Korrelationsanalyse (Pearson) durchgeführt.
+Ergebnisse:
+Korrelationskoeffizient: r = -0.12
+p-Wert: 0.28
+Es zeigte sich eine leichte negative Tendenz (je jünger, desto besser die Leistung), aber dieser Zusammenhang war nicht signifikant. Die Streuung der Punkte in Abbildung 2 verdeutlicht, dass das Alter allein keine starke Vorhersagekraft für die Erkennungsleistung hatte.
+Interpretation der Ergebnisse
+Die statistischen Analysen zeigen:
+1. Geschlecht spielte in unserer Studie keine Rolle für die Fähigkeit, Falschinformationen zu erkennen.
+2. Auch der Alterseffekt war vernachlässigbar klein.
+Diese Ergebnisse deuten darauf hin, dass andere Faktoren (z.B. Medienkompetenz oder Vorerfahrung) möglicherweise wichtiger sind als demografische Merkmale. Allerdings sollten die Ergebnisse mit Vorsicht interpretiert werden, da die Stichprobe relativ homogen war (mehrheitlich junge Erwachsene).
+Abbildung 1
+Mittelwerte der Entscheidungsgenauigkeit nach Geschlecht mit 95%-Konfidenzintervallen.
+Abbildung 2
+Streudiagramm mit Regressionsgerade für den Zusammenhang zwischen Alter und Entscheidungsgenauigkeit.
+Methodische Anmerkungen
+Für den t-Test wurde eine unverbundene Stichprobe angenommen
+Voraussetzungen für die Pearson-Korrelation wurden geprüft (Normalverteilung, Linearität)
+Alle Analysen wurden mit α = 0.05 durchgeführt
+Die Power der Tests war aufgrund der Stichprobengröße ausreichend
+Diese Analysen bilden die Grundlage für weitere Untersuchungen zu individuellen Unterschieden in der Erkennung von Falschinformationen.
+
+
+Stichprobe: An der Online Umfrage haben viele Proband\*innen teilgenommen (N = 176). Davon haben laut Statistik 84 Personen ihr Geschlecht als männlich, 90 als weiblich und zwei als divers angegeben. Grundsätzlich sind die Proband\*innen zwischen 18 und 69 Jahre alt und aus allen Teilnehmer\*innen Entstand ein Mittelwert (M  = 22.9). Unsere Zielgruppe sind 18-42 jährige. Wir haben uns auf diese Altersklasse fokussiert, weil uns die Unterschiede zwischen unserer Generation und den Generationen über uns interessieren und auch dafür, wie der Übergang zu älteren Generationen in diesem Kontext aufgebaut ist und welche signifikanten Unterschiede zum Thema Vorerfahrung mit der KI, Nutzung der KI sowie Differenzen in den Ergebnissen der Tests auftreten. Die Proband\*innen zwischen 18 und 42 Jahren (N = 160) bestehen aus 82 weiblichen, 76 männlichen und 2 diversen Menschen. Sie befinden sich beim Thema Alter im Durschnitt tendenziell eher an dem Minimum, den 18 Jährigen, als am Maximum, den 42 Jährigen (M = 22.0).
 
 ```{r analysis, echo=FALSE, message=FALSE, warning=FALSE}
 library(tidyverse)
