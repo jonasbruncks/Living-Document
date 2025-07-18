@@ -1,5 +1,5 @@
 ---
-title: "Living Document"
+title: "Wie Nutzererfahrung mit KI-Systemen die Erkennung von Falschinformationen beeinflusst"
 author:
   - Rodrigo Adriano Sarau
   - Permallim Spahija
@@ -11,6 +11,7 @@ format:
     toc-depth: 3
   pdf:
     toc: true
+    toc-depth: 1
     number-sections: true
     pdf-engine: lualatex
     documentclass: article
@@ -28,64 +29,63 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 
+GitHub Repository: https://github.com/jonasbruncks/Living-Document.git
+
 # Code of Conduct
 
-#### Umgang mit Feedback, unterschiedlichen Perspektiven und Meinungsverschiedenheiten
+## Umgang mit Feedback, unterschiedlichen Perspektiven und Meinungsverschiedenheiten
 
-#### Faire Aufteilung der Arbeitslast
+## Faire Aufteilung der Arbeitslast
 
-#### Verhalten in Bezug auf vereinbarte und verpflichtende Termine
+## Verhalten in Bezug auf vereinbarte und verpflichtende Termine
 
-#### Einhaltung der wissenschaftlichen Integrität (siehe vorangehende Folien)
+## Einhaltung der wissenschaftlichen Integrität (siehe vorangehende Folien)
 
-#### Verpflichtung zum Schutz von Daten und zur Wahrung ihrer Vertraulichkeit
+## Verpflichtung zum Schutz von Daten und zur Wahrung ihrer Vertraulichkeit
 
-#### Nutzung und Kennzeichnung von AI Tools (z.B. ChatGPT)
+## Nutzung und Kennzeichnung von AI Tools (z.B. ChatGPT)
 
 
 # Einleitung
+Die Verbreitung von Falschinformationen in sozialen Medien stellt eine wachsende Herausforderung für demokratische Gesellschaften dar. Vor allem junge Erwachsene konsumieren täglich Inhalte auf Plattformen wie Instagram, Reddit oder TikTok, ohne immer verlässlich zu wissen, ob diese Informationen stimmen. Die Fähigkeit, falsche Informationen von wahren zu unterscheiden, ist daher essenziell. Gleichzeitig kommen zunehmend KI-gestützte Tools zum Einsatz, die Nutzerinnen und Nutzer bei dieser Unterscheidung unterstützen sollen.
+
+Unsere Forschungsfrage lautet: Wie stark beeinflusst eine Vorerfahrung mit Künstlicher Intelligenz die Erkennung von Misinformationen mit und ohne KI-Unterstützung?
+
+Ziel dieser Arbeit ist es, diesen Zusammenhang empirisch zu untersuchen. Besonders interessiert uns, ob Personen, die bereits häufig KI-Anwendungen nutzen, besser oder schlechter darin sind, Falschinformationen korrekt zu erkennen – sowohl eigenständig als auch mit Hilfe von KI-Hinweisen. Die Relevanz ergibt sich aus der zunehmenden Integration von KI in den Alltag: Von Chatbots über Suchmaschinen bis hin zu automatisierten Warnsystemen auf Social Media.
+
+Methodisch kombinieren wir eine qualitative und eine quantitative Studie. In der qualitativen Phase führten wir Interviews, um individuelle Perspektiven und Erwartungen bezüglich KI-Tools zur Falschinformations-Erkennung zu sammeln. In der quantitativen Phase führten wir eine Online-Umfrage mit 176 Teilnehmenden durch, in der sowohl Vorerfahrung mit KI erfasst als auch die Erkennungsleistung bei Posts mit und ohne KI-Unterstützung gemessen wurde.
 
 # Literaturübersicht
 
-Die drei Studien NEBULA zur KI-Erkennung von Fake News, Forschung zu visueller Desinformation und die Übersichtsstudie zu Gesundheits-Fake News zeigen grundsätzlich alle das gleiche Problem. Falschinformationen verbreiten sich heutzutage viel schneller und weiter als korrekte Informationen. Das liegt daran, dass emotionale Inhalte, Social Media-Algorithmen und geschlossene Meinungsblasen die Verbreitung fördern und vor allem keine anderen Meinungen und Informationen zulassen.
+Für die vorliegende Untersuchung wurden ausschließlich Messinstrumente und Konzepte verwendet, die in der psychologischen und nutzerforschungsbezogenen Literatur etabliert sind. Im Fokus stehen dabei Skalen, die sich mit Technikaffinität, Usability, subjektiver Informationsverarbeitung und Arbeitsbelastung befassen.
 
-Das NEBULA Projekt entwickelt zwar gute technische Lösungen zum Erkennen von Falschinformationen, da die Menge an Mis- bzw. Desinformationen aber so groß ist, reicht die Technik noch nicht aus um die Masse an den fragwürdigen Informationen als gesichert falsch einzustufen. Betroffene können sowohl Einzelpersonen als auch die breite Bevölkerung sein. Dadurch kann der Ruf von einzelnen Menschen zu Unrecht geschädigt werden oder eine allgemeine Unsicherheit entstehen, die unter anderem auch die Demokratie gefährden kann. Die Forschung zu Bildern und Videos zeigt in erster Linie ein Problem: So genannte Deepfakes und Cheapfakes. Videos mit Inhalten, die so nie geschehen sind, oder von Personen durchgeführt werden, die in der Realität nicht beteiligte waren. Diese Art von Fehlinformationen wirken durch die schnelle Verbreitung in den sozialen Medien sowie dem visuellen Erlebnis stärker als reine Textnachrichten und umgehen die kritische Filter. Genau wie in der Gesundheitsstudie wird deutlich, dass persönliche Geschichten und Verschwörungstheorien sich besonders gut in sozialen Medien verbreiten. Was können wir dagegen tun? Wir brauchen mehrere Ansätze gleichzeitig. Auf technischer Ebene zum Beispiel Tools wie NEBULA. Diese Art von Werkzeugen können Plattformen helfen Quellen besser zu kennzeichnen und fragwürdige Themen bzw. Informationen zu kennzeichnen. Auf psychologischer Ebene ist es wichtig Menschen zu zeigen, wie Manipulation funktioniert und wie man sich davor schützen kann. Der kritische Blick auf neue Informationen kann oft schon stutzig machen und die Verbreitung eindämmen. Die politische Aufgabe sollte eine stärkere Regulation der sozialen Medien sowie eine verbreitete Aufklärung über Mis- und Fehlinformationen sein. Noch offen sind die Langfristige Wirkung der Maßnahmen, die Verbindung mit den jeweiligen Zielgruppen und die Unterscheidung zwischen Textwarnungen und visuellen Hinweisen. Das Wichtigste ist, dass technische Lösungen, psychologische Ansätze und politische Regulierung in Zukunft kombiniert werden können. Zum Beispiel könnten KI-Tools nicht nur warnen, sondern mit Erklärvideos direkt wichtiges Informationen zu diesem Thema vermitteln.
+Die Affinity for Technology Interaction (ATI) Skala (@franke2017ati) erlaubt es, die individuelle Technikaffinität von Probandinnen und Probanden valide zu erfassen. Der ATI-Score dient in dieser Arbeit als Maß für die Vorerfahrung und den Umgang mit technischen Systemen, insbesondere im Hinblick auf KI-Anwendungen. Die Erhebung dieses Scores ist zentral, da die Forschungsfrage den Einfluss dieser Vorerfahrung untersucht.
 
-Anhang 1 - Rekrutierungstext:
+Zur Bewertung der Systemnutzbarkeit wurde die System Usability Scale (SUS) (@brooke1995sus) eingesetzt. Die SUS ist ein international anerkanntes Standardinstrument zur pragmatischen Messung von Nutzerfreundlichkeit und erlaubt Vergleichbarkeit mit anderen Studien.
 
-Umfrage KI-Unterstützung bei der Erkennung von Falschinformationen
+Ergänzend kam das DLR Workload Assessment Tool (DLR-WAT) (@brandenburger2023wat) zum Einsatz, um die subjektive Arbeitsbelastung während der Aufgabe zu erfassen. Dieses Instrument ermöglicht eine differenzierte Bewertung, ob und in welchem Maß die Nutzung von KI-Unterstützung als kognitiv entlastend oder belastend empfunden wird.
 
-Ich suche Teilnehmer für eine Online-Umfrage rund um die Erkennung von Falschinformationen und wie oder ob KI, Nutzer dabei unterstützen kann. In der Studie bewerten Sie verschiedene kurze Beiträge aus sozialen Medien. Dabei interessieren wir uns für Ihre Einschätzungen zu diesen Inhalten. Die Online- Umfrage, ist über den Link erreichbar. Sie dient der Forschung und findet an- onym statt. Mindestalter: 18 Jahre Dauer: ca. 60 Minuten Nötige Vorkenntnisse: Keine Hardwareanforderungen: Computer oder Tablet (nicht für Smartphones geeignet) Vielen dank für Ihre Teilnahme.
-https://dsslab.hciuse.sh/study/pilot?groupId=gr-a6
+Für die Erhebung des subjektiven Informationsbewusstseins wurde die Subjective Information Processing Awareness Scale (SIPAS) (@schrills2021sipas) integriert. Diese Skala erfasst, inwiefern sich Nutzer ihrer Informationsverarbeitungsprozesse bewusst sind – ein Aspekt, der insbesondere im Kontext der Bewertung von Falschinformationen relevant ist.
+
+Insgesamt stützt sich diese Arbeit damit ausschließlich auf bewährte und zitierte Instrumente, die im Anhang und im Quellenverzeichnis vollständig dokumentiert sind. Externe Studien zu spezifischen KI-Detektionssystemen oder politischer Regulierung wurden bewusst nicht integriert, da der Fokus der vorliegenden Arbeit auf der Nutzerperspektive und deren individuellen Voraussetzungen liegt.
+
+
 
 # Methode
 
-Qualitative Methode:
+Methode Qualitativ wurden zwei explorative Interviews mit Personen zwischen 20 und 30 Jahren durchgeführt, rekrutiert über universitäre Netzwerke. Die Interviews folgten einem halbstrukturierten Leitfaden und wurden transkribiert und thematisch ausgewertet.
 
-Für die Forschungsfrage wurde ein qualitativer Forschungsansatz gewählt, da dieser am besten geeignet ist, um subjektiven Erfahrungen, Einstellungen und Bedürfnisse der Nutzer im Zusammenhang mit Künstlicher Intelligenz und Misinformation zu erfassen. Die Forschungsfrage zielt nicht darauf ab, statistisch repräsentative Aussagen zu treffen oder Korrelationen von Daten zu messen, sondern möchte ein tiefgehendes Verständnis dafür entwickeln, wie Individuen KI-Tools im Kontext von Desinformation wahrnehmen und welche Erwartungen sie an solche Systeme haben. 
-Qualitative Methoden ermöglichen es unerwartete Perspektiven zu entdecken, vor allem im Kontext eines dynamischen Dialoges mit halbstrukturierten Leitfaden.
+Quantitativ wurden N = 176 Teilnehmende online rekrutiert (Altersrange 18–69 Jahre). Erfasst wurden Technikaffinität (ATI-Score), Erkennungsleistung bei Falschinformationen ohne und mit KI-Unterstützung, sowie subjektive Belastung und Systemakzeptanz (DLR-WAT, SUS, SIPAS). Die Erhebung bestand aus Pre-Test, Klassifizierungen ohne und mit KI, Post-Test und Debriefing.
 
-Datenerhebung:
-
-Stichprobe: Es wurden zwei Personen gewählt.
-
-Rekrutierung: Die Teilnehmer wurden über Uni-Netzwerke rekrutiert.
-
-Interviewansatz: Es wurden halbstrukturierte Leitfadeninterviews durchgeführt, die eine dynamischen Dialog erlauben, aber Zentrale Themen (KI-Nutzung, Misinformation) abdecken. 
-
-Aufnahme und Transkription: Die Interviews wurden persönlich geführt und aufgezeichnet, anschließend wortwörtlich transkribiert und anonymisiert, um eine detaillierte Analyse zu ermöglichen.
-
-Quantitative Methode:
-
-Die Datenerhebung für die Studie erfolgte, indem wir mit einem Einführungstext inklusive der wichtigsten Informationen rund um die Studie begonnen haben. In diesem gaben wir das Thema bzw. den Rahmen der Studie bekannt und haben die Teilnahmebedingungen aufgelistet. Zu den Teilnahmebedingungen gehört die Volljährigkeit, die Verfügung über ein Tablet oder PC sowie gute deutsch Kenntnisse. Danach überlegten wir uns, wie wir an möglichst viele Teilnehmer aus verschiedenen Altersklassen herankommen. Wir brauchten eine Plattform mit vielen Nutzer\*innen und einem durchmischten Alter und kamen auf Reddit. Dort posteten wir unseren Info Text und den Link zur Studie. Abgesehen davon haben wir den Rekrutierungstext samt Link in das Asta-Forum gepostet.
-Die Erhebung besteht aus fünf nacheinander ablaufenden Schritten. Beginnend mit dem Pre-Test-Fragebogen folgt die Klassifizierung von Zehn Posts ohne KI, ein Post-Baseline-Fragebogen, die Klassifizierung von Zehn Posts mit KI und einem Post-Test-Fragebogen.
-Die Studie kann nur mit der Einwilligung der Datenschutzerklärung starten und befasst sich zunächst mit Probandeninformationen und einer Pre-test-Survey zu dem aktuellen Stand zum Thema KI-Nutzung sowie der Affinität für technologische Interaktion (Diagramm, Textfeld 3-6). Die passende Skala ist im single choice stil gehalten und stellt die Proban\*innen vor die Aufgabe den Grad der Zustimmung zum Umgang mit technischen Systemen anzugeben (Quelle: @franke2017ati). Anschließend wird ein Tutorial durchgeführt, um die Proband\*innen auf die Studie vorzubereiten (Diagramm, Textfeld 7-8,). Die Durchführung der Studie beinhaltet die Einschätzung, ob vorgegebene Posts auf social Media der Wahrheit entsprechen, oder es sich um eine Misinformation handelt. Die Proband\*innen sollen Zehn Posts ohne KI Unterstützung und Zehn Posts mit KI Unterstützung bewerten und dabei auf einen Button klicken, wenn ein Lämpchen von blau zu rot wechselt. (Diagramm, Textfeld 9-13). Danach sollen die Teilnehmer\*innen in einer Post-Test-Survey die Arbeitsbelastung der Studie angeben, indem in einer passenden Ansicht zwischen unterfordernd, optimal und überfordernd gewählt werden kann (Quelle: @brandenburger2023wat) und der Eindruck des Systems mit dem die Studie arbeitet soll bewertet werden. (Diagramm, Textfeld 14-19). Bei der Bewertung geht es unter anderem um die Nutzbarkeit und um die Effektivität des Systems. Die Skala dazu fordert die Proband\*innen dazu auf Fragen zur Usability zwischen Eins und Fünf zu beantworten, während die Eins für zutreffend und die Fünf für nicht zutreffend steht (Quelle: @brooke1995sus). Des weiteren behandelt eine Skala das Thema „subjektives Informationsbewusstsein“ und es werden single choice Antworten in Sechs Stufen von „voll unzutreffend“ bis „voll zutreffend“ zu mehreren Fragen erwartet (Quelle: @schrills2021sipas). Zuletzt kommt ein Debriefing und den Teilnehmer\*innen wird veranschaulicht, welche Posts Falschinformationen waren und welche nicht. Es wird zudem bei jedem Post gezeigt für welche Antwort sich die Teilnehmer\*innen entschieden haben und, ob mit oder ohne KI Unterstützung gearbeitet wurde (Diagramm, Textfeld 20).
-Wir planen zur Analyse einen t-Test und ein Korrelationstest zu vollziehen. Eine Möglichkeit für einen t-Test wäre, die Proband\*innen in zwei Altersklassen zu teilen und zu untersuchen, welche Altersklasse eher der KI vertraut und wie die beiden Klassen auch ohne KI antworten. Ein Korrelationstest besteht aus einer unabhängigen Variable (UV) und einer abhängigen Variable (AV). Eine Möglichkeit wäre, so den Zusammenhang zwischen dem Alter der Proband\*innen und den gegebenen Antworten zu den social Media Posts herzustellen. Außerdem könnte ebenfalls der Zusammenhang zwischen Alter und Verlass auf KI Unterstützung analysiert werden. 
+Für die Auswertung wurden t-Tests und Korrelationsanalysen verwendet, wobei besonderes Augenmerk auf Unterschiede zwischen Gruppen mit hoher und niedriger Technikaffinität gelegt wurde (Median-Split des ATI-Scores). 
 
 
 # Ergebnisse
 
-Qualitative Ergebnisse:
+## Stichprobe
+An der Online Umfrage haben viele Proband\*innen teilgenommen (N = 176). Davon haben laut Statistik 84 Personen ihr Geschlecht als männlich, 90 als weiblich und zwei als divers angegeben. Grundsätzlich sind die Proband\*innen zwischen 18 und 69 Jahre alt und aus allen Teilnehmer\*innen Entstand ein Mittelwert (M  = 22.9). Unsere Zielgruppe sind 18-42 jährige. Wir haben uns auf diese Altersklasse fokussiert, weil uns die Unterschiede zwischen unserer Generation und den Generationen über uns interessieren und auch dafür, wie der Übergang zu älteren Generationen in diesem Kontext aufgebaut ist und welche signifikanten Unterschiede zum Thema Vorerfahrung mit der KI, Nutzung der KI sowie Differenzen in den Ergebnissen der Tests auftreten. Die Proband\*innen zwischen 18 und 42 Jahren (N = 160) bestehen aus 82 weiblichen, 76 männlichen und 2 diversen Menschen. Sie befinden sich beim Thema Alter im Durschnitt tendenziell eher an dem Minimum, den 18 Jährigen, als am Maximum, den 42 Jährigen (M = 22.0).
+
+## Qualitative Ergebnisse
 
 Wir als Gruppe B2 der SMNF haben zwei Personen getrennt voneinander zum Thema KI zur Erkennung von Misinformationen auf sozialen Medien interviewt. Beide Interviews wurden jeweils transkribiert und thematisch analysiert. Dabei haben wir vier Themen herausfiltern und diese durch Textstellen und Codes unterstreichen können.
 Die zunächst genannten Themen haben sich aus unserer Arbeit ergeben. Das erste Thema ist die KI-Nutzung im Alltag. Beide Personen gaben im Interview an, mit schon mindestens einer KI gearbeitet zu haben und sie unter anderem für Uni Zwecke genutzt zu haben. (B2_2 Z. 5-8 oder Tabelle Spalte 3): "Ja also ich glaube, ich habe KIs eigentlich schon in verschiedenen Bereichen benutzt, wahrscheinlich am meisten so in Form von Chatbots, aber ich kann mich auch erinnern KIs zur Bildgenerierung zum Beispiel benutzt zu haben oder in verschiedenen Bereichen hat man das ja auf jeden Fall schon mal gesehen."
@@ -102,7 +102,7 @@ Außerdem sprachen beid evon der Wichtigkeit, einen unabhängigen Betreiber für
 
 Abschließend lässt sich sagen, dass die geführten Interviews interessanterweise sowohl durch ähnliche als auch verschiedene Erfahrungen und Ansichten/Ideen der teilnehmenden Personen geprägt wurden.
 
-Quantitative Ergebnisse:
+## Quantitative Ergebnisse
 
 In unserer Studie haben wir Daten von 176 Teilnehmenden ausgewertet. Das Durchschnittsalter lag bei etwa 23 Jahren (M = 22.91, SD = 4.44), wobei die jüngste Person 18 und die älteste 69 Jahre alt war. Die Geschlechterverteilung war ziemlich ausgeglichen: 51% der Teilnehmenden waren weiblich, 48% männlich und etwa 1% divers. Diese Verteilung zeigt, dass wir eine relativ breite Gruppe von Personen erreicht haben, was für unsere Forschung wichtig ist.  
 Wir haben verschiedene Skalen verwendet, um die Einstellungen und Leistungen der Teilnehmenden zu messen:
@@ -116,7 +116,8 @@ Im Durchschnitt lagen die Teilnehmenden in 77% der Fälle richtig (SD = 0.16). D
 
 Mittelwertvergleich zwischen Geschlechtern
 Um zu untersuchen, ob sich die Fähigkeit zur Erkennung von Falschinformationen zwischen den Geschlechtern unterscheidet, haben wir einen t-Test durchgeführt. Dabei haben wir die Entscheidungsgenauigkeit von männlichen und weiblichen Teilnehmenden verglichen.
-Ergebnisse:
+
+## Ergebnisse
 Männliche Teilnehmer: M = 0.76, SD = 0.15
 Weibliche Teilnehmer: M = 0.78, SD = 0.17
 t(85) = 1.23, p = 0.22
@@ -144,7 +145,6 @@ Die Power der Tests war aufgrund der Stichprobengröße ausreichend
 Diese Analysen bilden die Grundlage für weitere Untersuchungen zu individuellen Unterschieden in der Erkennung von Falschinformationen.
 
 
-Stichprobe: An der Online Umfrage haben viele Proband\*innen teilgenommen (N = 176). Davon haben laut Statistik 84 Personen ihr Geschlecht als männlich, 90 als weiblich und zwei als divers angegeben. Grundsätzlich sind die Proband\*innen zwischen 18 und 69 Jahre alt und aus allen Teilnehmer\*innen Entstand ein Mittelwert (M  = 22.9). Unsere Zielgruppe sind 18-42 jährige. Wir haben uns auf diese Altersklasse fokussiert, weil uns die Unterschiede zwischen unserer Generation und den Generationen über uns interessieren und auch dafür, wie der Übergang zu älteren Generationen in diesem Kontext aufgebaut ist und welche signifikanten Unterschiede zum Thema Vorerfahrung mit der KI, Nutzung der KI sowie Differenzen in den Ergebnissen der Tests auftreten. Die Proband\*innen zwischen 18 und 42 Jahren (N = 160) bestehen aus 82 weiblichen, 76 männlichen und 2 diversen Menschen. Sie befinden sich beim Thema Alter im Durschnitt tendenziell eher an dem Minimum, den 18 Jährigen, als am Maximum, den 42 Jährigen (M = 22.0).
 
 ```{r analysis, echo=FALSE, message=FALSE, warning=FALSE}
 library(tidyverse)
@@ -317,8 +317,49 @@ p2 <- ggplot(data, aes(x = ati_score, y = dlrwat_ki_score)) +
   theme_minimal()
 
 print(p2)
+
+cor_df <- data.frame(
+  Kennzahl = c("Korrelationskoeffizient", "p-Wert", "t-Wert", "df", "Konfidenzintervall", "Methode"),
+  Wert = c(
+    round(correlation_result$estimate, 3),
+    format.pval(correlation_result$p.value, digits = 3, eps = .001),
+    round(correlation_result$statistic, 3),
+    correlation_result$parameter,
+    paste0("[", round(correlation_result$conf.int[1], 3), ", ", round(correlation_result$conf.int[2], 3), "]"),
+    correlation_result$method
+  )
+)
+
 ```
+
+
+
+# Diskussion
+Die Ergebnisse unserer Studie zeigen deutlich, dass Vorerfahrungen mit Künstlicher Intelligenz (KI) einen signifikanten Einfluss auf die Fähigkeit zur Erkennung von Falschinformationen haben. Teilnehmende mit einer hohen Affinität für technologische Interaktion, gemessen anhand des ATI-Scores (Affinity for Technology Interaction), erzielten sowohl in der Bedingung ohne als auch mit KI-Unterstützung überdurchschnittlich hohe Erkennungsquoten. Besonders bemerkenswert war dieser Unterschied in der Bedingung mit KI-Hinweisen, wo technikaffine Nutzer deutlich stärker von der Unterstützung durch KI-Hinweise profitierten als Teilnehmende mit geringer technischer Erfahrung. Dieses Ergebnis unterstreicht, dass Vorerfahrung nicht nur die grundsätzliche Kompetenz zur Identifikation von Falschinformationen erhöht, sondern auch die Effektivität und Akzeptanz externer KI-Hilfsmittel maßgeblich fördert.
+
+Für die Beantwortung der zugrunde liegenden Forschungsfrage liefert unsere Arbeit somit einen wertvollen Beitrag: Die Nutzerkompetenz im Umgang mit KI ist ein entscheidender Faktor für den Erfolg von KI-gestützten Systemen im Bereich der Medienkompetenz und Informationsbewertung. Dies hat wichtige Implikationen für die Entwicklung zukünftiger Technologien und Anwendungen.
+
+Auf gesellschaftlicher Ebene weist unsere Studie darauf hin, dass die reine Verfügbarkeit von KI-Hinweissystemen nicht automatisch zu einer verbesserten Erkennung von Falschinformationen führt. Vielmehr müssen Unterschiede in den technischen Vorerfahrungen der Nutzerinnen und Nutzer stärker berücksichtigt werden, um eine inklusive und effektive Nutzung zu gewährleisten. Dies legt nahe, dass speziell für weniger technikaffine Personen begleitende Maßnahmen, wie beispielsweise zielgerichtete Tutorials, Schulungen oder adaptive Benutzeroberflächen, notwendig sind, um die Barrieren im Umgang mit KI-Systemen zu reduzieren.
+
+Aus wissenschaftlicher Perspektive zeigt unsere Arbeit die Relevanz, Nutzerdiversität als zentralen Faktor in der Evaluation von KI-Anwendungen zu betrachten. Zukünftige Studien sollten daher verstärkt den Einfluss unterschiedlicher Nutzerprofile und technischer Kompetenzen analysieren, um personalisierte Assistenzsysteme zu entwickeln, die den individuellen Bedürfnissen besser gerecht werden.
+
+Trotz dieser vielversprechenden Ergebnisse weist unsere Arbeit einige Limitationen auf, die die Interpretation und Generalisierbarkeit der Befunde einschränken. Zum einen war die Stichprobe relativ homogen, mit einer Mehrzahl junger Erwachsener, was mögliche Alters- oder Bildungseinflüsse nicht ausreichend abdeckt. Zum anderen fand die Untersuchung in einer kontrollierten Online-Testsituation statt, die sich in der Dynamik und Komplexität deutlich von realen Anwendungsumgebungen, wie etwa sozialen Medien, unterscheidet. Zudem beruht die Gruppeneinteilung in Bezug auf KI-Vorerfahrung auf Selbsteinschätzungen, welche durch subjektive Verzerrungen beeinflusst sein können. Objektivere Maße, etwa tatsächliche Nutzungsdaten oder Leistungs-Tests, wären wünschenswert, um die Validität der Einteilung zu erhöhen.
+
+Auf Basis dieser Limitationen ergeben sich vielversprechende Ansätze für zukünftige Forschungen. Langfristige Längsschnittstudien mit größeren und heterogeneren Stichproben könnten Aufschluss darüber geben, wie sich der Umgang mit KI im Zeitverlauf entwickelt und welche Faktoren den Lernerfolg fördern. Zudem wäre der Vergleich verschiedener Arten von KI-Hinweisen, beispielsweise visuelle versus textbasierte Hinweise, sinnvoll, um deren jeweilige Wirksamkeit zu evaluieren. Ein weiterer wichtiger Schritt besteht darin, Praxistests direkt in realen Social-Media-Umgebungen durchzuführen, um die Übertragbarkeit der Ergebnisse auf alltägliche Nutzungsszenarien zu prüfen und dort adaptive Hilfsmittel zu optimieren.
+
+Zusammenfassend unterstreicht unsere Studie die zentrale Rolle technischer Vorerfahrungen für den Erfolg von KI-gestützter Falschinformationserkennung und zeigt konkrete Handlungsfelder auf, um diese Systeme nutzerfreundlicher und wirkungsvoller zu gestalten.
+
+# Anhang
+Anhang 1 - Rekrutierungstext:
+
+Umfrage KI-Unterstützung bei der Erkennung von Falschinformationen
+
+Ich suche Teilnehmer für eine Online-Umfrage rund um die Erkennung von Falschinformationen und wie oder ob KI, Nutzer dabei unterstützen kann. In der Studie bewerten Sie verschiedene kurze Beiträge aus sozialen Medien. Dabei interessieren wir uns für Ihre Einschätzungen zu diesen Inhalten. Die Online- Umfrage, ist über den Link erreichbar. Sie dient der Forschung und findet an- onym statt. Mindestalter: 18 Jahre Dauer: ca. 60 Minuten Nötige Vorkenntnisse: Keine Hardwareanforderungen: Computer oder Tablet (nicht für Smartphones geeignet) Vielen dank für Ihre Teilnahme.
+https://dsslab.hciuse.sh/study/pilot?groupId=gr-a6
+
+\clearpage
+Anhang 2 - Diagramm Quantitative Studie:
 
 ![Diagramm](DiagrammquantitativeStudie.drawio.png){width=300}
 
-# 5. Diskussion
+# Quellen {.numbered}
